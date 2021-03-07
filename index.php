@@ -55,6 +55,23 @@
       </div>
       
     </div>
+
+    <hr/>
+    <div class="row justify-content-center">
+      <div class="col-10">
+        <a href="https://lin.ee/n82RxUd" class="">
+          <img src="https://sp-dist.orderpang-sv.com/dist/img/btn_line_contact.png" class="w-100"/>
+        </a>
+      </div>
+      <div class="col-10 mt-2">
+        <a href="#box-form" class="">
+          <img src="https://sp-dist.orderpang-sv.com/dist/img/btn_order.png" class="w-100"/>
+        </a>
+      </div>
+      
+    </div>
+    <hr/>
+
     <div class="row">
       <div class="col-12">
         <img src="dist/img/feature/01.jpg" class="img-fluid rounded" alt="">
@@ -97,9 +114,21 @@
       </div>
     </div>
 
-    
-
-    <hr />
+    <hr/>
+    <div class="row justify-content-center">
+      <div class="col-10">
+        <a href="https://lin.ee/n82RxUd" class="">
+          <img src="https://sp-dist.orderpang-sv.com/dist/img/btn_line_contact.png" class="w-100"/>
+        </a>
+      </div>
+      <div class="col-10 mt-2">
+        <a href="#box-form" class="">
+          <img src="https://sp-dist.orderpang-sv.com/dist/img/btn_order.png" class="w-100"/>
+        </a>
+      </div>
+      
+    </div>
+    <hr/>
 
     <div class="row my-5"> <!-- Before & After -->
       <div class="col-12 mb-2 text-center">
@@ -111,7 +140,7 @@
 
     
     <hr/>
-    <div class="row my-5">
+    <div class="row my-5" id="box-form">
       <div class="col-12 text-center">
         <h2>กรอกข้อมูลเพื่อสั่งซื้อ</h2>
       </div>
