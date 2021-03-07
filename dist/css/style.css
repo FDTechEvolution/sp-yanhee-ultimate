@@ -67,3 +67,13 @@
 .expandable {
     transition: all 1s ease;
 }
+
+.blink_me {
+  animation: blinker 0.8s linear infinite;
+}
+
+@keyframes blinker {
+   60% {
+    opacity: 0;
+  }
+}

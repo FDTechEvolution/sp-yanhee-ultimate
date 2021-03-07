@@ -9,7 +9,7 @@ Vue.component('button-contact', {
     data: function () {
       return {}
     },
-    template: `<a href="#" class=""><img src="https://sp-dist.orderpang-sv.com/dist/img/btn_line_contact.png" class="w-100"/></a>`
+    template: `<a href="#" class="btn btn-success btn-lg rounded text-center w-100">Line @ (สอบถาม)</a>`
 })
   
 Vue.component('button-full', {
@@ -130,11 +130,11 @@ new Vue({
           {src: 'dist/img/before_after/Ultimate_210219_18.jpg', alt: 'YANHEE ULTIMATE - Before & After', title: 'Before & After'},
           {src: 'dist/img/before_after/Ultimate_210219_19.jpg', alt: 'YANHEE ULTIMATE - Before & After', title: 'Before & After'},
           {src: 'dist/img/before_after/Ultimate_210219_20.jpg', alt: 'YANHEE ULTIMATE - Before & After', title: 'Before & After'},
-          //{src: 'dist/img/before_after/Ultimate_210219_21.jpg', alt: 'YANHEE ULTIMATE - Before & After', title: 'Before & After'},
-          //{src: 'dist/img/before_after/Ultimate_210219_22.jpg', alt: 'YANHEE ULTIMATE - Before & After', title: 'Before & After'},
-          //{src: 'dist/img/before_after/Ultimate_210219_23.jpg', alt: 'YANHEE ULTIMATE - Before & After', title: 'Before & After'},
-          //{src: 'dist/img/before_after/Ultimate_210219_24.jpg', alt: 'YANHEE ULTIMATE - Before & After', title: 'Before & After'},
-          //{src: 'dist/img/before_after/Ultimate_210219_25.jpg', alt: 'YANHEE ULTIMATE - Before & After', title: 'Before & After'}
+          {src: 'dist/img/before_after/Ultimate_210219_21.jpg', alt: 'YANHEE ULTIMATE - Before & After', title: 'Before & After'},
+          {src: 'dist/img/before_after/Ultimate_210219_22.jpg', alt: 'YANHEE ULTIMATE - Before & After', title: 'Before & After'},
+          {src: 'dist/img/before_after/Ultimate_210219_23.jpg', alt: 'YANHEE ULTIMATE - Before & After', title: 'Before & After'},
+          {src: 'dist/img/before_after/Ultimate_210219_24.jpg', alt: 'YANHEE ULTIMATE - Before & After', title: 'Before & After'},
+          {src: 'dist/img/before_after/Ultimate_210219_25.jpg', alt: 'YANHEE ULTIMATE - Before & After', title: 'Before & After'}
         ],
         factories: [
           {src: 'dist/img/factory/cover-2_factory.jpg', alt: 'มาตรฐานการผลิตระดับสากล', title: ''},
