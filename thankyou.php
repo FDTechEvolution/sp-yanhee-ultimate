@@ -29,8 +29,11 @@
 <div id="app" class="container">
   <main class="container my-3">
     <div class="row">
-      <div class="col-12">
+      <div class="col-12 text-center">
         <img src="dist/img/thankyou.jpg" class="img-fluid rounded" alt="">
+        <br/>
+        <br/>
+        <a href="<?php echo '//'.$_SERVER['SERVER_NAME']; ?>">กลับหน้าหลัก</a>
       </div>
     </div>
   </main>

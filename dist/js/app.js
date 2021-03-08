@@ -4,10 +4,9 @@ Vue.component("thank-you", {
                 <div class="modal-wrapper">
                   <div class="modal-container">
 
-                    <div class="modal-body my-0 text-center">
+                    <div class="modal-body my-0 text-center p-0">
                       <slot v-if="$parent.responseStatus === 200" name="body">
-                        <h4 class="text-success">ขอบคุณสำหรับการสั่งซื้อ</h4>
-                        <p>ทางเราจะทำการจัดส่งสินค้าให้ท่านทันที</p>
+                        <img src="dist/img/thankyou.jpg" class="img-fluid rounded" alt="">
                       </slot>
                       
                       <slot v-else name="body">
@@ -84,9 +83,7 @@ new Vue({
               }
             })
             .then((response) => {
-              console.log(response)
-              this.showResponse = true
-              this.responseStatus = response.status
+              window.location.replace(this.formData.source + "/thankyou.php?price=" + this.formData.price)
             })
             .finally(() => {
               this.formData.name = ''
